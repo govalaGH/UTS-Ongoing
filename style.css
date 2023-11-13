@@ -1,0 +1,250 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font: 18px/36px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #6c55e1;
+}
+.header 
+{
+    background: white;
+    height: 80px;
+    width: 100%;    
+}
+
+label.icon 
+{
+    color: #6c55e1;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+.header ul 
+{
+    float: right;
+    margin-right: 20px;
+}
+
+.header ul li 
+{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+.header ul li a 
+{
+    color: #6c55e1;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a.main, .header ul li a:hover 
+{
+    background: black;
+    transition: .3s;
+}
+
+#check {
+    display: none;
+}
+
+.checkbut
+{
+    display: none;
+}
+
+/*allow us*/
+.Navigation-Body p
+{
+    margin: 20px;
+    text-align: center;
+    font-size: 45px;
+}
+
+
+
+/* Anggota*/
+.body
+{
+    background-color: white;
+}
+
+.Anggota
+{
+    padding: 20px;
+    background-image: linear-gradient(white, #6c55e1);
+    display: flex;
+    flex-direction:row;
+    image-resolution: 100px;
+    text-align: left;
+    width: 100%;
+}
+
+img
+{
+    max-width: 152px;
+    max-height: 196px;
+    border-radius: 20px;
+}
+
+/* Anggota1 */
+.Anggota1
+{
+    flex-direction:column;
+    padding: 20px;
+    background-color: white;
+    margin: 5px;
+    flex: 20%;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #6c55e1;
+    border-width: 5px;
+}
+
+
+.container .progress-container {
+    margin-bottom: auto;
+}
+
+.container .progress-container h1 {
+    margin: 0 0 15px 15px;
+    letter-spacing: .5px;
+}
+
+.container .progress-container .progress-bar {
+    position: relative;
+    width: 500px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 3px 4px 5px 0px rgba(204 185 185 / .75);
+}
+
+.container .progress-container .progress-bar span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    color: #6c55e1;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.7;
+    text-align: center;
+    border-radius: 30px;
+    background: linear-gradient(90deg, rgba(76, 175, 80, 1) 50%, rgba(50, 222, 132, 1) 100%);
+    transition: width .5s linear;
+}
+/* Anggota2 */
+.Anggota2
+{
+    flex-direction:column;
+    padding: 20px;
+    background-color: white;
+    margin: 5px;
+    flex: 20%;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #6c55e1;
+    border-width: 5px;
+}
+
+.Anggota3
+{
+    flex-direction:column;
+    padding: 20px;
+    background-color: white;
+    margin: 5px;
+    flex: 20%;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #6c55e1;
+    border-width: 5px;
+}
+.Anggota4
+{
+    flex-direction:column;
+    padding: 20px;
+    background-color: white;
+    margin: 5px;
+    flex: 20%;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #6c55e1;
+    border-width: 5px;
+}
+
+.Anggota5
+{
+    flex-direction:column;
+    padding: 20px;
+    background-color: white;
+    margin: 5px;
+    flex: 20%;  
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #6c55e1;
+    border-width: 5px;
+}
+
+/* Penutup*/
+.footer
+{
+    width: auto;
+    height: 90px;
+    background-color: #6c55e1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    display: block;
+    box-sizing: border-box;
+}
+
+.footer h1
+{
+    color: white;
+}
+
+/*=============================media*/
+@media screen and (min-width: 300px)
+{
+    .Navigation
+    {
+        width: 100%;
+    }
+
+    .footer
+    {
+        width: 100%;
+    }
+
+    .Anggota
+    {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1080px)
+{
+    .Navigation
+    {
+        max-width: 100%;
+    }
+
+    .footer
+    {
+        max-width: 100%;
+    }
+
+    .Anggota
+    {
+        flex-direction: row;
+    }
+}
